@@ -47,6 +47,11 @@ def clean_data(data):
     data.loc[:, 'Frequency'] = data['Frequency'].map(drows)
     return data
 
+def try_me():
+    if X == 42:
+        return print(f'You found the answer to life, the universe and everything: {X}!!!')
+    return print(f'You did not find the answer to life, the universe and everything...')
+
 
 if __name__ == '__main__':
     # For introspections purpose to quickly get this functions on ipython
